@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>ScriptName - Automation Execution Results</title>
+
+		<style type='text/css'>
+			body {
+				background-color: #2b0000;
+				font-family: Cambria, Geneva, sans-serif;
+				font-size: 1.1em;
+				background-image: url('background.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;				
+			}
+
+			small {
+				font-size: 0.7em;
+			}
+
+			table {
+				border: 1px solid #4D7C7B;
+				border-collapse: collapse;
+				border-spacing: 0px;
+				width: 95%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			tr.heading {
+				background-color: #883f05;
+				color: #ffff6b;
+				font-size: 0.8em;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			tr.subheading {
+				background-color: #FFFF95;
+				color: #2b0000;
+				font-size: 0.8em;
+				text-align: left;
+				background-size: cover;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-image: url('content.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;				margin-left: auto;
+				
+			}
+
+			tr.section {
+				background-color: #f6ffa2;
+				color: #333300;
+				cursor: pointer;
+				font-weight: bold;
+				font-size: 0.8em;
+				text-align: center;
+			}
+			tr.subsection {
+				cursor: pointer;
+			}
+
+			tr.content {
+				background-color: #FAFAC5;
+				color: #000000;
+				font-size: 0.8em;
+				display: table-row;
+				background-image: url('content.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;				
+			}
+
+			td {
+				padding: 4px;
+				text-align: inherit\0/;
+				word-wrap: break-word;
+				max-width: 450px;
+				text-align: center;
+			}
+
+			th {
+				padding: 4px;
+				text-align: inherit\0/;
+				word-break: break-all;
+				max-width: 450px;
+			}
+
+			td.justified {
+				text-align: justify;
+			}
+
+			td.pass {
+				font-weight: bold;
+				color: green;
+			}
+
+			td.fail {
+				font-weight: bold;
+				color: red;
+			}
+
+			td.screenshot {
+				font-weight: bold;
+				color: navy;
+			}
+
+			td.done {
+				font-weight: bold;
+				color: black;
+			}
+
+			td.debug {
+				font-weight: bold;
+				color: blue;
+			}
+
+			td.warning {
+				font-weight: bold;
+				color: orange;
+			}
+		</style>
+
+		<script>
+		function changeTextLocation() {
+			var userID = document.getElementById("userID");
+			var executorID = document.getElementById("executorID");
+			if(userID && executorID) {
+				userID.innerHTML = executorID.innerText;
+				executorID.parentElement.removeChild(executorID);
+			}
+			var systemDetails = document.getElementById("system_OS_IP");
+			var updatedSystemDetails = document.getElementById("user_OS_IP");
+			if(systemDetails&&updatedSystemDetails){
+				systemDetails.innerHTML = updatedSystemDetails.innerText;
+				updatedSystemDetails.parentElement.removeChild(updatedSystemDetails);
+			}
+			var vTestElement = document.getElementById("createTest");
+			var vNameDiv = document.getElementById("tcName");
+			if(vTestElement && vNameDiv) {
+				vNameDiv.innerHTML = vTestElement.innerText;
+				vTestElement.parentElement.removeChild(vTestElement);
+			}
+			var pCount = document.getElementById("pCount");			
+			var PassCount = document.getElementById("passCount");
+			if(pCount && PassCount) {
+				PassCount.innerHTML = pCount.innerText;
+				PassCount.parentElement.removeChild(PassCount);
+			}
+			var fCount = document.getElementById("fCount");			
+			var failCount = document.getElementById("failCount");
+			if(fCount && failCount) {
+				failCount.innerHTML = fCount.innerText;
+				failCount.parentElement.removeChild(failCount);
+			}
+			var tcName = document.getElementById("testScriptName");			
+			var updatedName = document.getElementById("scriptName");
+			if(tcName && updatedName) {
+				updatedName.innerHTML = tcName.innerText;
+				tcName.parentElement.removeChild(tcName);
+			}
+			var durationHour = document.getElementById("durationHour");			
+			var tcDurationHour = document.getElementById("tcDurationHour");
+			if(durationHour && tcDurationHour) {
+				tcDurationHour.innerHTML = durationHour.innerText;
+				durationHour.parentElement.removeChild(durationHour);
+			}
+			var durationMin = document.getElementById("durationMin");			
+			var tcDurationMins = document.getElementById("tcDurationMins");
+			if(durationMin && tcDurationMins) {
+				tcDurationMins.innerHTML = durationMin.innerText;
+				durationMin.parentElement.removeChild(durationMin);
+			}
+			var durationSec = document.getElementById("durationSec");			
+			var tcDurationSecs = document.getElementById("tcDurationSecs");
+			if(durationSec && tcDurationSecs) {
+				tcDurationSecs.innerHTML = durationSec.innerText;
+				durationSec.parentElement.removeChild(durationSec);
+			}			
+		}
+			function toggleMenu(objID) {
+				if (!document.getElementById) return;
+				var ob = document.getElementById(objID).style;
+				if(ob.display === 'none') {
+					try {
+						ob.display='table-row-group';
+					} catch(ex) {
+						ob.display='block';
+					}
+				}
+				else {
+					ob.display='none';
+				}
+			}
+			function toggleSubMenu(objId) {
+				for(i=1; i<10000; i++) {
+					var ob = document.getElementById(objId.concat(i));
+					if(ob === null) {
+						break;
+					}
+					if(ob.style.display === 'none') {
+						try { 
+							ob.style.display='table-row';
+						} catch(ex) {
+							ob.style.display='block';
+						}
+					}
+					else {
+						ob.style.display='none';
+					}
+				}
+			}
+		</script>
+		<!-- reference Moment.js library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+	</head>
+
+	<body onload="changeTextLocation()">
+		<table id='header'>
+			<thead>
+				<tr class='heading'>
+					<th colspan='10' style='font-family:Cambria;text-align:center; font-size:1.2em;'>
+						<span id="scriptName"></span> - Automation Execution Results
+					</th>
+				</tr>
+				<tr class='subheading'>
+					<th colspan='5' id='scriptDate'>&nbsp;Date&nbsp;&&nbsp;Time &nbsp;:&nbsp;<span id="tcDate"></span></th>
+					<th colspan='5' id='scriptDate'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System&nbsp;OS&nbsp;&&nbsp;IP&nbsp;:&nbsp;<span id="system_OS_IP"></span></th>
+				</tr>
+				<script type="text/javascript">
+					document.getElementById("tcDate").innerHTML = new Date();
+					/*(function(){
+						var NowMoment = moment();
+						document.getElementById("tcDate").innerHTML = NowMoment.format("dddd, MMMM Do YYYY, h:mm:ss a"); })();*/
+				</script>
+
+				<tr class='subheading'>
+					<th colspan='5' id='Script Name'>&nbsp;Script Description &nbsp;:&nbsp;<span id="tcName"></span></th>
+					<th colspan='5' id='Script Name'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Executor ID &nbsp;:&nbsp;<span id="userID"></span></th>
+				</tr>
+
+			</table>
+		<table id='main'>
+			<thead>
+				<tr class='heading'>
+					<th>Step No</th>
+					<th>Step Name</th>
+					<th>Description</th>
+					<th>Status</th>
+					<th>Step Time</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr class='heading'>
+					<th colspan='5'>Execution Duration : <span id="tcDurationHour"></span>&nbsp;hours&nbsp;&nbsp;&nbsp;&nbsp;<span id="tcDurationMins"></span>&nbsp;minute&nbsp;&nbsp;&nbsp;&nbsp;<span id="tcDurationSecs"></span>&nbsp;seconds</th>
+				</tr>
+				<tr class='subheading'>
+					<td class='pass'>Steps passed :</td>
+					<td><span id="pCount">1</span></td>
+					<td class='done'></td>
+					<td class='fail'>Steps failed :</td>
+					<td><span id="fCount">0</span></td>
+					
+				</tr>
+			</tfoot>
+			<tbody id='Iteration1' style='display:table-row-group'>

@@ -7,6 +7,9 @@ var moment = require('moment');
 var momentDurationFormatSetup = require("moment-duration-format");
 var mm = require('moment-precise-range-plugin');
 var starttime = moment(new Date(),"MM-DD-YYYY HH:mm:ss");
+var os = require('os')
+var ip = require("ip");
+
 
 /**Defining the function**/
 var EnvironmentSetUp = function(){
@@ -15,6 +18,12 @@ var EnvironmentSetUp = function(){
             beforeAll(() => {
                 console.log(moment().format("MM-DD-YYYY HH:mm:ss")+" Test Execution Started");
                 console.log("****************************************************************************");
+                console.log('---------------------------------------------');
+                console.log("Executor ID : "+os.userInfo().username+"		    	    |");
+                console.log("System HostName : "+os.hostname()+"           |");
+                console.log("OS Type & Release :"+os.type()+"/"+os.release()+"    |");
+                console.log("IP Address :"+ip.address()+"                   |");
+                console.log('---------------------------------------------');
                 browser.waitForAngularEnabled(true);
                 console.log("Set waitForAngularEnabled = true");
                 browser.ignoreSynchronization = false;
@@ -24,9 +33,9 @@ var EnvironmentSetUp = function(){
             });
             beforeEach(() => {
                 browser.navigate().refresh();
-                console.log("Refreshing the browser content");
                 console.log("Test Method Execution Started at : "+moment().format("MM-DD-YYYY HH:mm:ss"));
                 console.log("---------------------------------------------------------------------------")
+                console.log("Refreshing the browser content");
             });
            afterEach(() => {
                 console.log("---------------------------------------------------------------------------");

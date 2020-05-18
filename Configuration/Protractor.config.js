@@ -1,5 +1,6 @@
 //importing protractor beautiful report
 //var HtmlReporter = require('protractor-beautiful-reporter');
+
 var moment = require('moment');
 var momentDurationFormatSetup = require("moment-duration-format");
 var mm = require('moment-precise-range-plugin');
@@ -10,6 +11,7 @@ var starttime = moment(new Date(),"MM-DD-YYYY HH:mm:ss");
 exports.config = {
     //set direct connect as true, if you want to direct connect to browser and automate without setting selenium server
     directConnect:'true',
+    //troubleshoot: true,
     //SeleniumAddress: 'http://localhost:4444/wd/hub'
 
     //capabilities to be passed
@@ -18,16 +20,18 @@ exports.config = {
         platformVersion: '10',
         browserName: 'chrome',
         chromeOptions: {
-            binary: 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
-            'args': ['disable-extensions', 'start-maximized'],
+            binary: 'C:/Users/Laptop/AppData/Local/Google/Chrome/Application/chrome.exe',
+            'args': ['show-fps-counter=true'],
+            'args': ['disable-extensions', 'start-maximized', '--disable-web-security','--no-sandbox'],
+            'args': ['disable-infobars'],
             useAutomationExtension: false
             }
 
     },
     chromeDriver: '../node_modules/webdriver-manager/selenium/chromedriver.exe',
-    framework: 'jasmine2',
-    specs:['../TestScript/TC01_JasmineAssertion.js'],
-    allScriptsTimeout : 120000,
+    framework: 'jasmine',
+    specs:['../TestScript/TC02*'],
+    allScriptsTimeout : 20000,
 
      //this onPrepare function is for generate report
      onPrepare: function() {
@@ -82,13 +86,13 @@ exports.config = {
 
           // Add a screenshot reporter and store screenshots to location:
           jasmine.getEnv().addReporter(new HtmlReporter({
-             baseDirectory: '../Reports/Screenshots'
+             baseDirectory: '../temp/Screenshots'
           }).getJasmine2Reporter());
        },
 
 
     jasmineNodeOpts: {
         showColors: true,
-        defaultTimeoutInterval: 1000000,
+        defaultTimeoutInterval: 200000,
     }
 };
