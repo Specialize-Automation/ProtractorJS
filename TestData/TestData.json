@@ -1,29 +1,14 @@
 [
 	{
-		"TC01": {
-			"Country": "INDIA",
-			"Name": "Aditya",
-			"Pin": 678598
-		},
-		"TC02": {
-			"Country": "AUSTRALIA",
-			"Name": "Hayden",
-			"Pin": 559746
-		},
 		"TC03": {
-			"Country": "UNITED KINGDOM",
-			"Name": "Roonie",
-			"Pin": 949597
-		},
-		"TC04": {
-			"Country": "ITALY",
-			"Name": "Rossi",
-			"Pin": 248481
-		},
-		"TC05": {
-			"Country": "FRANCE",
-			"Name": "Zidance",
-			"Pin": "012587"
+			"FirstName": "Aditya",
+			"LastName": "Roy",
+			"Phone": "7848484848",
+			"Email": "test@gmail.com",
+			"City": "Texas",
+			"Country": "UNITED STATES",
+			"UserName": "adi@test",
+			"Password": "test123"
 		}
 	}
 ]

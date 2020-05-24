@@ -30,8 +30,9 @@ exports.config = {
     },
     chromeDriver: '../node_modules/webdriver-manager/selenium/chromedriver.exe',
     framework: 'jasmine',
-    specs:['../TestScript/TC02*'],
-    allScriptsTimeout : 20000,
+    specs:['../TestScript/TC03*'],
+    params: require('../TestData/CommonData.json'),
+    allScriptsTimeout: 20000,
 
      //this onPrepare function is for generate report
      onPrepare: function() {

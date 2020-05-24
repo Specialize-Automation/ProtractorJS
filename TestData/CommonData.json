@@ -1,0 +1,14 @@
+{
+    "MurcuryApp":
+    {
+        "URL": "http://www.newtours.demoaut.com/mercurywelcome.php",
+        "AppName": "Welcome: Mercury Tours",
+        "RegistrationTitle": "Register: Mercury Tours"
+    },
+    "App":
+    {
+        "URL": "https://www.protractortest.org/",
+        "Title": "Protractor - end-to-end testing for AngularJS",
+        "GitHub": "GitHub - angular/protractor: E2E test framework for Angular apps"
+    }
+}

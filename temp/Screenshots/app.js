@@ -1769,6 +1769,1408 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "000600ed-001e-00a8-0054-00c600c200a3.png",
         "timestamp": 1589830341675,
         "duration": 27928
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 3112,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "002d00f7-004b-0022-0089-00b2002c00c4.png",
+        "timestamp": 1590249544285,
+        "duration": 33175
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 10260,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(xpath, //a[contains(@href,'XXutorial')])"
+        ],
+        "trace": [
+            "NoSuchElementError: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(xpath, //a[contains(@href,'XXutorial')])\n    at selenium_webdriver_1.promise.all.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:274:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.executeScript()\n    at Driver.schedule (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.executeScript (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:59:33)\n    at ProtractorBrowser.to.(anonymous function) [as executeScript] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:67:16)\n    at HomePage.navigateToTutorial (C:\\ProtractorAutomation\\Pages\\HomePage.js:88:21)\n    at UserContext.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:40:22)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\nFrom: Task: Run it(\"Validate Home Page Details\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0064008e-000e-005b-00e5-00c3009200e2.png",
+        "timestamp": 1590253083229,
+        "duration": 24588
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9944,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(xpath, //a[contains(@href,'XXutorial')])"
+        ],
+        "trace": [
+            "NoSuchElementError: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(xpath, //a[contains(@href,'XXutorial')])\n    at selenium_webdriver_1.promise.all.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:274:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.executeScript()\n    at Driver.schedule (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.executeScript (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:59:33)\n    at ProtractorBrowser.to.(anonymous function) [as executeScript] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:67:16)\n    at HomePage.navigateToTutorial (C:\\ProtractorAutomation\\Pages\\HomePage.js:87:17)\n    at UserContext.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:40:22)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\nFrom: Task: Run it(\"Validate Home Page Details\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00580019-000c-00c0-0069-002900ed00c6.png",
+        "timestamp": 1590253656493,
+        "duration": 23365
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9448,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00e50058-004a-004e-00c3-00400051004f.png",
+        "timestamp": 1590253742407,
+        "duration": 22580
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17068,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: console.err is not a function"
+        ],
+        "trace": [
+            "TypeError: console.err is not a function\n    at C:\\ProtractorAutomation\\Pages\\HomePage.js:100:25\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Validate Home Page Details\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00fe0079-00e3-00a4-00cf-007800ad000b.png",
+        "timestamp": 1590259689309,
+        "duration": 25256
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11560,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00e500b9-00f9-009c-00a6-005a00780071.png",
+        "timestamp": 1590259789406,
+        "duration": 28914
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 14260,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00eb00e0-0027-00b6-0040-005b00a90099.png",
+        "timestamp": 1590261259561,
+        "duration": 22675
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 6272,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0091003d-00a6-0091-00a2-000d00a900f9.png",
+        "timestamp": 1590261700969,
+        "duration": 102143
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 13136,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: No element found using locator: By(xpath, //a[text()=\"HXome\"])"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"HXome\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\HomePage.js:29:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"Validate Home Page Details\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "000b00a0-00bc-007c-00e6-00d700d80022.png",
+        "timestamp": 1590261909951,
+        "duration": 2372
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 15900,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: No element found using locator: By(xpath, //a[text()=\"HXome\"])"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"HXome\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\HomePage.js:29:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"Validate Home Page Details\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC02_HomePage_Validation.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "006d00b7-0053-0026-00ce-0028000400a6.png",
+        "timestamp": 1590261971606,
+        "duration": 2215
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17160,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00bb00c8-0007-006f-005a-0038006d006a.png",
+        "timestamp": 1590262056586,
+        "duration": 26187
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 18232,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00f10061-002e-0075-007f-008f00350020.png",
+        "timestamp": 1590262292565,
+        "duration": 27282
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 4204,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00140070-002a-007c-003f-00a800bb00b5.png",
+        "timestamp": 1590262358878,
+        "duration": 28360
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11072,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00cc00c6-00a1-0044-0092-00f6007400bd.png",
+        "timestamp": 1590262451243,
+        "duration": 27485
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17296,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "000c00f9-006f-00e4-000b-00c70096009d.png",
+        "timestamp": 1590262669815,
+        "duration": 10171
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 16148,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "007b002b-0060-0011-005b-009000160044.png",
+        "timestamp": 1590262706528,
+        "duration": 27445
+    },
+    {
+        "description": "Validate Home Page Details|Testing the loading functionality",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 16280,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00e60038-000c-0076-006a-00af0080009b.png",
+        "timestamp": 1590266009201,
+        "duration": 29420
+    },
+    {
+        "description": "To validate Home Page Details|Validation of www.protractortest.org HomePage",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 15612,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "005b00a1-0053-0058-00e4-00e6003a00b3.png",
+        "timestamp": 1590327712280,
+        "duration": 29760
+    },
+    {
+        "description": "To validate Home Page Details|Validation of www.protractortest.org HomePage",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 4888,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00830093-00d7-0037-0092-006200b40062.png",
+        "timestamp": 1590330753521,
+        "duration": 46805
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11848,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Expected 'Protractor - end-to-end testing for AngularJS' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'"
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "Error: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'\n    at Object.openSync (fs.js:443:3)\n    at Object.writeFileSync (fs.js:1194:35)\n    at Object.appendFileSync (fs.js:1240:6)\n    at GenerateReport.udpateResult (C:\\ProtractorAutomation\\Report\\GenerateReport.js:129:12)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:24:20\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00c500e1-004d-0056-0090-00410073008a.png",
+        "timestamp": 1590344549603,
+        "duration": 856
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17832,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:55)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "Error: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'\n    at Object.openSync (fs.js:443:3)\n    at Object.writeFileSync (fs.js:1194:35)\n    at Object.appendFileSync (fs.js:1240:6)\n    at GenerateReport.udpateResult (C:\\ProtractorAutomation\\Report\\GenerateReport.js:129:12)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:24:20\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "005b0033-0077-0041-0038-00ef00930098.png",
+        "timestamp": 1590344586624,
+        "duration": 213
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 16224,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:32:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "003800c4-006f-0040-0078-00ae0010005a.png",
+        "timestamp": 1590344767803,
+        "duration": 2286
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 920,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0041006d-0000-002a-0035-00d3003200b3.png",
+        "timestamp": 1590345486483,
+        "duration": 2330
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17424,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:100)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00cb0098-00f4-0061-004d-00f4003d0032.png",
+        "timestamp": 1590345543873,
+        "duration": 2364
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 18188,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'http://www.newtours.demoaut.com/mercurywelcome.php'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:32:100)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00360065-00ac-0036-0013-00f20096002c.png",
+        "timestamp": 1590345598035,
+        "duration": 2385
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 14644,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'URL' of undefined",
+            "Expected '' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'URL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "008e004e-0060-00d3-0043-006d00570003.png",
+        "timestamp": 1590345738593,
+        "duration": 2318
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 15428,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'AppURL' of undefined",
+            "Expected '' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'AppURL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00920036-0049-004a-0007-00af00520015.png",
+        "timestamp": 1590345949345,
+        "duration": 2323
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 5940,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'AppURL' of undefined",
+            "Expected '' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'AppURL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "006b0023-006e-00cd-0021-00df008100d6.png",
+        "timestamp": 1590346000798,
+        "duration": 2335
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11036,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'AppURL' of undefined",
+            "Expected '' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'AppURL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:31:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00ad006c-007f-00bd-00b4-0070007f0056.png",
+        "timestamp": 1590346047736,
+        "duration": 2208
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17396,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346073477,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346073848,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346074554,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346074982,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346075015,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346077588,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346077607,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346081512,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346081528,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346087532,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346087553,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00720056-00f3-0062-004e-00bf00570051.png",
+        "timestamp": 1590346074306,
+        "duration": 13396
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17476,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: Cannot read property 'AppURL' of undefined",
+            "Expected '' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "TypeError: Cannot read property 'AppURL' of undefined\n    at UserContext.EnvironmentSetUp.beforeAll (C:\\ProtractorAutomation\\Test Environment\\Environment.js:32:71)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run beforeAll in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n    at UserContext.fn (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5325:13)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at QueueRunner.execute (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n    at queueRunnerFactory (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\nFrom asynchronous test: \nError\n    at new EnvironmentSetUp (C:\\ProtractorAutomation\\Test Environment\\Environment.js:18:13)\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:27:23)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)",
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00aa00d9-0044-007f-009e-004d0091004a.png",
+        "timestamp": 1590346248262,
+        "duration": 2296
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17204,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Expected 'Protractor - end-to-end testing for AngularJS' to be 'Welcome: Mercury Tours'.",
+            "Failed: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])"
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:22:35\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+            "NoSuchElementError: No element found using locator: By(xpath, //a[text()=\"REGISTER\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at base.click (C:\\ProtractorAutomation\\BaseClass\\BaseClass.js:17:17)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:46:18\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:28:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:25:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0047009f-00d8-00a9-00d2-0044009100ce.png",
+        "timestamp": 1590346285270,
+        "duration": 5356
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 7936,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346401221,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346401603,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346402304,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346402692,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346402715,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346405252,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346405262,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346408477,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346408491,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346414147,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346414171,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "009f0003-0073-004b-00a0-003400b60072.png",
+        "timestamp": 1590346402045,
+        "duration": 12270
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11404,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346472487,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346472869,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346473509,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346473917,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346473951,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346476489,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346476516,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346479666,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590346480730,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "000700a5-0084-0086-0072-00af00980036.png",
+        "timestamp": 1590346473259,
+        "duration": 12591
+    },
+    {
+        "description": "encountered a declaration exception|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 13072,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "ReferenceError: using is not defined"
+        ],
+        "trace": [
+            "ReferenceError: using is not defined\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:29:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:776:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590348738694,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590348738960,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590348739604,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590348740043,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590348740093,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "004e007c-0032-00a8-0044-006800fa0061.png",
+        "timestamp": 1590348739315,
+        "duration": 803
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 16444,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": [
+            "Failed: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'"
+        ],
+        "trace": [
+            "Error: ENOENT: no such file or directory, open 'undefined/ScriptResult.html'\n    at Object.openSync (fs.js:443:3)\n    at Object.writeFileSync (fs.js:1194:35)\n    at Object.appendFileSync (fs.js:1240:6)\n    at GenerateReport.udpateResult (C:\\ProtractorAutomation\\Report\\GenerateReport.js:129:12)\n    at C:\\ProtractorAutomation\\Pages\\MercuryHome.js:75:20\n    at elementArrayFinder_.then (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:804:32)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\nFrom: Task: Run it(\"To validate and check registration flow of user\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:30:9\n    at C:\\ProtractorAutomation\\node_modules\\jasmine-data-provider\\src\\index.js:25:22\n    at Array.forEach (<anonymous>)\n    at C:\\ProtractorAutomation\\node_modules\\jasmine-data-provider\\src\\index.js:20:20\n    at Suite.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:29:5)\n    at addSpecsToSuite (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\Laptop\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\ProtractorAutomation\\TestScript\\TC03_MerucryFlight_Registration.js:26:1)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349122044,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349122468,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349123103,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349123563,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349123699,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349126351,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349126356,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349129570,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349129656,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00830061-0042-003b-00b7-00d000b10003.png",
+        "timestamp": 1590349122862,
+        "duration": 12209
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17744,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349305673,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349306023,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349306702,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349307136,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349307177,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349309745,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349309796,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349313076,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349313104,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00a00079-00bb-0005-005c-001d00590096.png",
+        "timestamp": 1590349306452,
+        "duration": 25948
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 6840,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349444936,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349445330,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349446016,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349446469,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349446503,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349449043,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349449053,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349452236,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349452339,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00e500c1-002d-0014-00d9-006400160050.png",
+        "timestamp": 1590349445760,
+        "duration": 25827
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17784,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349677614,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349677615,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349679288,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349679701,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349679794,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349682525,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349682536,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349685865,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590349685902,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00c60053-00a5-00d0-005d-00b7000d0066.png",
+        "timestamp": 1590349678928,
+        "duration": 28937
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9404,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350507295,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350507317,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350508566,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350509016,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350509051,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350511929,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350511989,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350515382,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350515382,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350540623,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350540664,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350541696,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "001f00ce-0069-0072-0079-008a009a006f.png",
+        "timestamp": 1590350508289,
+        "duration": 35152
+    },
+    {
+        "description": "To validate and check registration flow of user|Registration flow E2E",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 14428,
+        "browser": {
+            "name": "chrome",
+            "version": "80.0.3987.87"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350669693,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350669956,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350671678,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350672206,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350672208,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350675021,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350675021,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350678322,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350678371,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/black - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350703549,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/images/spacer.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350703607,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://newtours.demoaut.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1590350704643,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "008300b3-004e-00db-0058-00dd00c1001b.png",
+        "timestamp": 1590350671116,
+        "duration": 35197
     }
 ];
 

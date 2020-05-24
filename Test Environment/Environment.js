@@ -24,12 +24,13 @@ var EnvironmentSetUp = function(){
                 console.log("OS Type & Release :"+os.type()+"/"+os.release()+"    |");
                 console.log("IP Address :"+ip.address()+"                   |");
                 console.log('---------------------------------------------');
-                browser.waitForAngularEnabled(true);
-                console.log("Set waitForAngularEnabled = true");
-                browser.ignoreSynchronization = false;
-                console.log("Set ignoreSynchronization = false");
-                browser.get('https://www.protractortest.org/');
-                console.log("Navigated to https://www.protractortest.org/");
+                browser.waitForAngularEnabled(false);
+                console.log("Set waitForAngularEnabled = false");
+                browser.ignoreSynchronization = true;
+                console.log("Set ignoreSynchronization = true");
+                browser.get(browser.params.MurcuryApp.URL);
+                console.log("Navigated to "+browser.params.MurcuryApp.URL);
+                
             });
             beforeEach(() => {
                 browser.navigate().refresh();
